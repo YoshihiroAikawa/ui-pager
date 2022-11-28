@@ -761,7 +761,7 @@ export class Pager extends PagerBase {
             } else if (cell.view !== view) {
                 this.mMap.delete(cell);
                 this._removeContainer(cell, index);
-                (cell.view.nativeViewProtected as UIView).removeFromSuperview();
+                // (cell.view.nativeViewProtected as UIView).removeFromSuperview();
                 cell.owner = new WeakRef(view);
             }
             if (view) {

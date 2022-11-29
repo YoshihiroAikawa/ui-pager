@@ -1,5 +1,5 @@
 import { AddChildFromBuilder, CoercibleProperty, Color, ContainerView, CoreTypes, GridLayout, ItemsSource, KeyedTemplate, Property, Template, View, ViewBase } from '@nativescript/core';
-export type Orientation = 'horizontal' | 'vertical';
+export declare type Orientation = 'horizontal' | 'vertical';
 export declare namespace knownTemplates {
     const itemTemplate = "itemTemplate";
 }

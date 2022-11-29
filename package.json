@@ -63,5 +63,10 @@
         "url": "https://github.com/nativescript-community/ui-pager"
     },
     "license": "Apache-2.0",
-    "readmeFilename": "README.md"
+    "readmeFilename": "README.md",
+    "gitHead": "7dcf6fe94971d356c651ab25c53db7d59c868a95"
+
+,"_resolved": "https://registry.npmjs.org/@nativescript-community/ui-pager/-/ui-pager-13.0.43.tgz"
+,"_integrity": "sha512-fd5R3XzBoYJYuYB/DI+7Vq81RqKJea0zZzkxga9ugts3k03xRxJ/X/92gX3YFheFLsof1VlctnhnbCWwGcYzRA=="
+,"_from": "@nativescript-community/ui-pager@13.0.43"
 }

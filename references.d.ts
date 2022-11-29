@@ -1,3 +1,2 @@
-/// <reference path="./node_modules/@nativescript/types-ios/lib/ios.d.ts" />
-/// <reference path="./node_modules/@nativescript/types-android/lib/android-28.d.ts" />
-/// <reference path="./node_modules/@nativescript/core/global-types.d.ts" />
+/// <reference path="../../node_modules/@nativescript/types-android/lib/android/androidx-31.d.ts" />
+/// <reference path="./typings/objc!CHIPageControl.d.ts" />

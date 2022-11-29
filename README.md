@@ -1,4 +1,4 @@
-<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->
+<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️-->
 <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -39,15 +39,11 @@
 
 [](#table-of-contents)
 
-
-[](#table-of-contents)
-
 ## Table of Contents
 
 * [Installation](#installation)
 * [API](#api)
 	* [Properties](#properties)
-  * [Events](#events)
 * [Usage in Angular](#usage-in-angular)
 	* [Examples](#examples)
 * [Usage in React](#usage-in-react)
@@ -65,16 +61,10 @@
 
 [](#installation)
 
-
-[](#installation)
-
 ## Installation
 Run the following command from the root of your project:
 
 `ns plugin add @nativescript-community/ui-pager`
-
-
-[](#api)
 
 
 [](#api)
@@ -108,43 +98,6 @@ Run the following command from the root of your project:
 Pager for NativeScript supports the core ObservableArray module part of the core NativeScript modules collection. Using an ObservableArray instance as a source for Pager will ensure that changes in the source collection will be automatically taken care of by the control.
 ```
 
-### Properties
-
-| Property | Type |
-| - | - |
-| items | `array` or `ItemsSource` 
-| selectedIndex | `number` |
-| canGoRight | `boolean` |
-| canGoLeft | `boolean` |
-| spacing | `PercentLengthType` |
-| peaking | `PercentLengthType` |
-| perPage | `number` |
-| indicator | `string`  ('disable', 'none', 'worm', 'fill', 'swap', 'thin_worm', 'flat')|
-| circularMode | `boolean` |
-| autoPlayDelay | `number` |
-| autoPlay | `boolean` |
-| orientation | `string` ('horizontal' or 'vertical') |
-| autoPlay | `boolean` |
-| disableSwipe | `boolean` |
-| showIndicator | `boolean` |
-| indicatorColor | `Color` or `string` |
-| indicatorSelectedColor | `Color` or `string` |
-
-### Events
-
-| Event | Type |
-| - | - |
-| selectedIndexChange | `{ object: View, propertyName: string, oldValue: any, value: any }` |
-| scroll | `{ object: View, selectedIndex: number, currentPosition: number, scrollX: number, scrollY: number }` |
-| swipe | `{ object: View }` |
-| swipeStart | `{ object: View }` |
-| swipeOver | `{ object: View }` |
-| swipeEnd | `{ object: View }` |
-| loadMoreItems | `{ object: View }` |
-| itemLoading | `{ object: View, android: any, ios: any, index: number, view: View }` |
-| itemDisposing (iOS only) | `{ object: View, android: any, ios: any, index: number, view: View }` |
-
-[](#usage-in-angular)
 
 
 [](#usage-in-angular)
@@ -173,9 +126,6 @@ import { PagerModule } from "@nativescript-community/ui-pager/angular";
 
 [](#usage-in-react)
 
-
-[](#usage-in-react)
-
 ## Usage in React
 
 Import the module into your project.
@@ -188,9 +138,6 @@ import { Pager } from '@nativescript-community/ui-pager/react';
 
 - [Basic Pager](demo-snippets/react/BasicPager.tsx)
   - A simple pager example using dynamic content.
-
-[](#usage-in-svelte)
-
 
 [](#usage-in-svelte)
 
@@ -218,9 +165,6 @@ registerNativeViewElement('pageritem', () => PagerItem);
 
 [](#usage-in-vue)
 
-
-[](#usage-in-vue)
-
 ## Usage in Vue
 
 Import the module into your project.
@@ -239,9 +183,6 @@ Vue.use(Pager);
 - [Basic Pager](demo-snippets/vue/BasicPager.vue)
   - A simple pager example using dynamic content.
 
-
-
-[](#demos-and-development)
 
 
 [](#demos-and-development)
@@ -281,9 +222,6 @@ npm run demo.[ng|react|svelte|vue].[ios|android]
 
 npm run demo.svelte.ios # Example
 ```
-
-[](#questions)
-
 
 [](#questions)
 
